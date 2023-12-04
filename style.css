@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');/*Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');/*Inter*/
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');/*Rowdies*/
+*{
+    margin:0px;
+    padding:0px;
+    background-color:#A8DADC;
+}
+
+/*Home*/
+nav{
+    background-color: #ffffff;
+    height:40px;
+}
+
+h1{
+    text-align: center;
+    color:#1D3557;
+    font-family:'Rowdies', sans-serif; 
+   
+}
+
+p{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size:25px;
+}
+
+.logo {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bnt-home{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #E63946;
+    color: #F1FAEE;
+    height: 49px;
+    width: 175px;
+    border-color: #E63946;
+}
+
+.bnt-admin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #E63946;
+    color:#F1FAEE;
+    height: 49px;
+    width: 175px;
+    border-color: #E63946;
+}
+
+
+.a-home{
+    background-color: #E63946;
+    text-decoration: none;
+    color:#F1FAEE;
+}
+.a-admin{
+    background-color: #E63946;
+    text-decoration: none;
+    color:#F1FAEE;
+}
+
+/*Farmacia-Cadastro*/
+
+#cad {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #457B9D;
+    border-radius: 25px;
+    height: 635px;
+    width: 458px;
+    box-shadow:#1D3557 3px 3px 3px 3px;
+}
+#h1-farm{
+   color:#E63946;
+   font-family: 'Roboto', sans-serif;
+   font-size: 40px;
+}
+
+label{
+    background-color: #457B9D;
+    color:#ffffff;
+}
+
+input{
+    background-color: #D9D9D9;
+}
+
+.a-index{
+ text-decoration: none;
+ color: #1D3557;
+
+}
+
+.bnt-index{
+ height:26px;
+ width: 76px;
+ border-color: #A8DADC;
+}
+
+
+
+/*Administrador*/
+.h1-adm{
+    font-family: 'Rowdies', sans-serif;
+    color:#1D3557;
+    font-size: 60px;
+}
+.h3-adm{
+    font-family: 'Rowdies', sans-serif;
+    color:#1D3557;
+    font-size: 32px;
+    text-align: center;
+}
+
+.bnt-adm{
+    border-color: #1D3557;
+    height:60px;
+    width: 60px;
+    background-color: #1D3557;
+    
+}
+.a-adm{
+    text-decoration: none;
+    color: #A8DADC; 
+    background-color: #1D3557;
+    
+}
+
+/*ranking*/
+.ranking{
+    background-color: #D9D9D9;
+    height: 284px;
+    width: 300px;
+    border-radius: 12px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.cad-img{
+    position: absolute;
+    left: 20%;
+}
